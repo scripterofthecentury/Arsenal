@@ -1,6 +1,6 @@
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-  Title = "AdvanceTech Arsenal",
+  Title = "Not Hub Arsenal",
   Text = "Working For Mobile and PC Executor",
   Duration = 8,
 })
