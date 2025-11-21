@@ -31,10 +31,10 @@ game:GetService("RunService").Heartbeat:connect(function(step)if flying and c an
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
-local Window = Library.CreateLib("CHEATER.FUN | Arsenal | v1.6 ", "BlueTheme")
+local Window = Library.CreateLib("NOT HUB | Arsenal | Testing ", "BlueTheme")
 
 local Welcome = Window:NewTab("Main")
-local MainSection = Welcome:NewSection("Welcome To AdvanceTech | " .. game.Players.LocalPlayer.Name)
+local MainSection = Welcome:NewSection("Welcome To Not Hub | " .. game.Players.LocalPlayer.Name)
 
 local HitboxSection = Welcome:NewSection("> Hitbox Settings <")
 
@@ -1357,22 +1357,15 @@ end)
 
 local Credit = Window:NewTab("Credits")
 local Section = Credit:NewSection("Credits")
-local Section = Credit:NewSection("Script Developed by: AdvanceFalling Team")
+local Section = Credit:NewSection("Script Developed by: Not Hub Team")
 Section:NewDropdown("Developer", "Dev", {"YellowGreg", "WspBoy12", "MMSVon", "ShadowClark", "Frostbite"}, function(currentDeveloper)
     local creations = {
-        YellowGreg = "Owner",
-        WspBoy12 = "Head Developer",
-        MMSVon = "Head Developer",
-        ShadowClark = "Head Developer",
-        Frostbite = "Head Developer",
+        Dahen = "Owner",
+        Notty = "Developer",
     }
     print(currentDeveloper .. " created " .. creations[currentDeveloper])
 end)
-local Section = Credit:NewSection("UI Framework: Kavo.")
-local Section = Credit:NewSection("Report Non-Functional Bugs Scripts on Discord")
-Section:NewButton("Copy Discord Link", "Discord", function()
-    setclipboard("https://discord.gg/FuZCM5X8TW")
-end)
+local Section = Credit:NewSection("UI Framework: Notty.")
 
 
 
